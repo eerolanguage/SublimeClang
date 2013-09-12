@@ -1,8 +1,8 @@
-### Fork of quarnster/SublimeClang to provide Eero support. Highly experimental at this point.
+#### Fork of [quarnster/SublimeClang](https://github.com/quarnster/SublimeClang) to provide Eero support. Highly experimental at this point.
 
-See the original [README](https://github.com/eerolanguage/SublimeClang/blob/master/ORIGINAL_README.creole) for additional information.
+See the original [README](https://github.com/eerolanguage/SublimeClang/blob/master/ORIGINAL_README.creole) (by quarnster) for additional information.
 
-### Installation
+#### Installation
 
 The Eero version is not currently installable via Package Control. Instead, clone this repo directly into your
 packages directory. Make sure to use the `--recursive` switch:
