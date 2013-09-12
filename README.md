@@ -1,6 +1,6 @@
-## Fork of quarnster/SublimeClang to provide Eero support. Highly experimental at this point.
+### Fork of quarnster/SublimeClang to provide Eero support. Highly experimental at this point.
 
-See the original [README](https://github.com/eerolanguage/SublimeClang/blob/master/README.creole) for additional information.
+See the original [README](https://github.com/eerolanguage/SublimeClang/blob/master/ORIGINAL_README.creole) for additional information.
 
 ### Installation
 
