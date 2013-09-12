@@ -946,7 +946,7 @@ class LockedTranslationUnit(LockedVariable):
                         cursor.kind == cindex.CursorKind.DESTRUCTOR:
                     f = cursor.location.file.name
                     if f.endswith(".h"):
-                        endings = ["cpp", "c", "cc", "m", "mm"]
+                        endings = ["cpp", "c", "cc", "m", "mm", "eero"]
                         for ending in endings:
                             f = "%s.%s" % (f[:f.rfind(".")], ending)
                             if f != self.fn and os.access(f, os.R_OK):

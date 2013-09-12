@@ -32,7 +32,7 @@
     // user settings) it will not be enabled. In other words
     // this setting, when set to false, overrides whatever the
     // keyboard toggle is set to.
-    "enable_fast_completions": true,
+    "enable_fast_completions": false,
 
     // Delay in ms until recompiling the file after the buffer is modified
     // Set to 0 to disable.
@@ -149,6 +149,7 @@
         "c++" : [],
         "c": [],
         "objc": [],
+        "eero": [],
         "objc++": []
     },
 
@@ -270,9 +271,6 @@
     // For help getting up and running with iOS development see https://github.com/quarnster/SublimeClang/issues/52
     "options":
     [
-        "-isystem", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/",
-        "-isystem", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/c++/4.2.1",
-        "-F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/",
         "-Wno-deprecated-declarations",
         "-isystem", "C:\\MinGW\\lib\\gcc\\mingw32\\4.7.0\\include",
         "-isystem", "C:\\MinGW\\lib\\gcc\\mingw32\\4.7.0\\include\\c++",
@@ -331,7 +329,8 @@
         "c",
         "cc",
         "m",
-        "mm"
+        "mm",
+        "eero"
     ],
 
     // All diagnostic errors from files in these directories or below will be ignored

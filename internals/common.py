@@ -103,6 +103,7 @@ try:
         language = get_language(view)
         if language == None or (language != "c++" and
                                 language != "c" and
+                                language != "eero" and
                                 language != "objc" and
                                 language != "objc++"):
             return False
